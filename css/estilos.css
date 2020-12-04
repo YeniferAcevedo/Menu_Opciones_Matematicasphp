@@ -1,0 +1,118 @@
+body{
+    background-color: #e2f8f7;
+}
+
+.container{
+        width: 996px;
+        margin: 0px auto;
+        font-size: 1em;
+}
+
+.activo{
+    background-color: #c6c6fc;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+}
+
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    padding: 3px 10px;
+    margin: 2px;
+    background-color: #a7a7d4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+form p input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 980px){
+    .container{
+        width: 98%;
+    }
+    section{
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 700px){   
+    section{
+        float: none;
+        width: 96%;
+    }
+
+    nav, section{
+        font-size: 1.2em;
+    }
+
+    nav ul{
+        float: none;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 501px){
+    nav, section{
+        font-size: 1.5em;
+    }
+
+    section{
+        width: 94%;
+    }
+
+    nav ul{
+        float: left;
+        clear: none;
+        width: 50%;
+    }
+
+    nav ul li{
+        float: none;
+    }
+}
